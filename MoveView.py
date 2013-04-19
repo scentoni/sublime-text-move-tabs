@@ -27,8 +27,14 @@ class MoveView(sublime_plugin.WindowCommand):
         elif direction == 'right':
             if index < num_views - 1:
                 index += 1
+        elif direction == 'beginning':
+            if index > 0:
+                index = 0
+        elif direction == 'end':
+            if index < num_views - 1:
+                index = num_views -1
         else:
-            print 'Unrecognized direction:', direction + '. Use left or right.'
+            print 'Unrecognized direction:', direction + '. Use left, right, beginning, or end.'
 
         # Move the view
         if target_index != index:

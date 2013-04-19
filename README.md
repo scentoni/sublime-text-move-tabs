@@ -7,10 +7,12 @@ Moves tabs in Sublime Text, like in Google Chrome.
 Keybindings
 -----------
 
-**There are no Mac keybindings yet!**
+The default keybindings are:
 
-If somebody knows how tabs are moved in Chrome on Mac, please let me know.
+*Ctrl+Shift+Page Up/Down* for moving tabs left/right.  
+*Ctrl+Shift+Home/End* for moving tabs to the beginning/end.
 
-The default keybindings on Linux and Windows are:
+For small Mac keyboards, use Fn+Ctrl+Shift and the arrow keys:
 
-*Ctrl+Shift+Page Up/Down* for moving tabs left/right.
+*Fn+Ctrl+Shift+Up/Down* for moving tabs left/right.  
+*Fn+Ctrl+Shift+Left/Right* for moving tabs to the beginning/end.

@@ -1,4 +1,6 @@
 [
-    // Disabled (need to find out how to move tabs in Chrome/Chromium on Mac)
-    {}
+    { "keys": ["ctrl+shift+pageup"], "command": "move_view", "args": {"direction": "left"} },
+    { "keys": ["ctrl+shift+pagedown"], "command": "move_view", "args": {"direction": "right"} },
+    { "keys": ["ctrl+shift+home"], "command": "move_view", "args": {"direction": "beginning"} },
+    { "keys": ["ctrl+shift+end"], "command": "move_view", "args": {"direction": "end"} }
 ]
